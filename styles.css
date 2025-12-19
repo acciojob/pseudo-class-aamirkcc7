@@ -7,7 +7,7 @@
     content: "Before Content"; /* Change this to whatever text you want */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size */
-    position: absolute; /* Positioning to avoid affecting layout */
+/* position: absolute; /* Positioning to void affecting layout */ */
     top: -30px; /* Adjust as necessary */
     left: 0; /* Aligns to the left of the container */
 }
@@ -16,7 +16,8 @@
     content: "After Content"; /* Change this to whatever text you want */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size */
-    position: absolute; /* Positioning to avoid affecting layout */
+    /* position: absolute; /* Positioning to avoid affecting layout */ */
+	display: block;
     bottom: -30px; /* Adjust as necessary */
     left: 0; /* Aligns to the left of the container */
 }
