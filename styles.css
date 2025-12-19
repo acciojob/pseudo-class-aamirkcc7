@@ -4,7 +4,7 @@
 }
 
 #container::before {
-    content: "Before Content"; /* Change this to whatever text you want */
+    content: "Before Element"; /* Change this to whatever text you want */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size */
     top: -30px; /* Adjust as necessary */
@@ -12,7 +12,7 @@
 }
 
 #container::after {
-    content: "After Content"; /* Change this to whatever text you want */
+    content: "After Element"; /* Change this to whatever text you want */
     color: #f00; /* Red color */
     font-size: 20px; /* Font size */
    
